@@ -3,4 +3,9 @@
 mkdir -p ~/.zsh
 cp -r ./zsh/* ~/.zsh
 cp zshrc ~/.zshrc
+
+echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/zsh
+
+
 git config --global merge.tool opendiff
