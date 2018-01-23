@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p ~/.zsh
+cp -r ./zsh/* ~/.zsh
+cp .zshrc ~/.zshrc
+git config --global merge.tool opendiff
