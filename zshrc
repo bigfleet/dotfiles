@@ -12,5 +12,7 @@ source ~/.zsh/rails.zsh
 source ~/.zsh/rbenv.zsh
 source ~/.zsh/nodenv.zsh
 
+source ~/.zsh/virtualenv.zsh
+
 # Customize to your needs...
 export PATH="/Users/bigfleet/bin:$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
