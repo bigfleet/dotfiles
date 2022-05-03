@@ -15,4 +15,4 @@ source ~/.zsh/nodenv.zsh
 source ~/.zsh/virtualenv.zsh
 
 # Customize to your needs...
-export PATH="/Users/bigfleet/bin:$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/Users/$(whoami)/bin:$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
