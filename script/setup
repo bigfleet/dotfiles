@@ -5,7 +5,12 @@ cp -r ./zsh/* ~/.zsh
 cp zshrc ~/.zshrc
 
 echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/zsh
+
+`asdf plugin add direnv`
+`asdf direnv setup --shell bash --version system`
+
+echo "Welcome to `hostname` `whoami`"
+echo "chsh -s /usr/local/bin/zsh"
 
 
 git config --global merge.tool opendiff
