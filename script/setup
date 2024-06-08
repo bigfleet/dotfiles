@@ -4,13 +4,11 @@ mkdir -p ~/.zsh
 cp -r ./zsh/* ~/.zsh
 cp zshrc ~/.zshrc
 
-echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
-
 `asdf plugin add direnv`
 `asdf direnv setup --shell bash --version system`
 
 echo "Welcome to `hostname` `whoami`"
-echo "chsh -s /usr/local/bin/zsh"
+echo "Run `bash ~/.dotfiles/now-zsh` to finish up"
 
 
 git config --global merge.tool opendiff
