@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/zsh
+echo "/bin/zsh" | sudo tee -a /etc/shells
+chsh -s /bin/zsh `whoami`
